@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+.wrapper{
+    min-height: 100vh;
+    width:100%;
+    background-image: url(a1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial{
+    padding: 30px 100px;
+
+}
+article h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+article h1:after{
+    height: 5px;
+    width: 225px;
+    display: block;
+    margin: auto;
+    color: #000;
+}
+article img{
+    height: 200px;
+    width: 200px;
+
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+blockquote{
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid #2fdbb6;
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #2fdbb6;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border:#2fdbb6;
+}
